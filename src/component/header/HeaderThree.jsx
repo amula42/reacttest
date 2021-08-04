@@ -4,10 +4,10 @@ import { FiX , FiMenu} from "react-icons/fi";
 import Scrollspy from 'react-scrollspy'
 
 const SocialShare = [
-    {Social: <FaFacebookF /> , link: 'https://www.facebook.com/'},
-    {Social: <FaLinkedinIn /> , link: 'https://www.linkedin.com/'},
-    {Social: <FaInstagram /> , link: 'https://www.instagram.com/'},
-    {Social: <FaTwitter /> , link: 'https://twitter.com/'},
+    {Social: <FaFacebookF /> , link: 'https://www.facebook.com/akash.mula'},
+    {Social: <FaLinkedinIn /> , link: 'https://www.linkedin.com/in/iamakashmula/'},
+    {Social: <FaInstagram /> , link: 'https://www.instagram.com/akash.mula/'},
+    {Social: <FaTwitter /> , link: 'https://twitter.com/AkashMula'},
 ]
 class HeaderThree extends Component{
     constructor(props) {
@@ -59,7 +59,7 @@ class HeaderThree extends Component{
         }else if(logo === 'dark'){
             logoUrl = <img src="/assets/images/logo/logo-dark.png" alt="Digital Agency" />;
         }else if(logo === 'symbol-dark'){
-            logoUrl = <img src="/assets/images/logo/logo-symbol-dark.png" alt="Digital Agency" />;
+            logoUrl = <img src="/assets/images/logo/logo-1.png" alt="Digital Agency" />;
         }else if(logo === 'symbol-light'){
             logoUrl = <img src="/assets/images/logo/logo-symbol-light.png" alt="Digital Agency" />;
         }else{
@@ -94,11 +94,11 @@ class HeaderThree extends Component{
                                 ))}
                             </ul>
                         </div>
-                        <div className="header-btn">
+                        {/* <div className="header-btn">
                             <a className="rn-btn" href="https://themeforest.net/checkout/from_item/25457315?license=regular">
                                 <span>buy now</span>
                             </a>
-                        </div>
+                        </div> */}
                         {/* Start Humberger Menu  */}
                         <div className="humberger-menu d-block d-lg-none pl--20">
                             <span onClick={this.menuTrigger} className="menutrigger text-white"><FiMenu /></span>

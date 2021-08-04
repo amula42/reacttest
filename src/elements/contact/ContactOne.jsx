@@ -18,8 +18,8 @@ class ContactOne extends Component{
                         <div className="col-lg-6 order-2 order-lg-1">
                             <div className="section-title text-left mb--50">
                                 <h2 className="title">Hire Me.</h2>
-                                <p className="description">I am available for freelance work. Connect with me via phone: <a href="tel:+8801923088574">01923 088574</a> or email:
-                                    <a href="mailto:admin@example.com"> admin@example.com</a> </p>
+                                <p className="description">I am available for freelance work. Connect with me via phone: <a href="tel:+918697384021">08697 384021</a> or email:
+                                    <a href="mailto:amula42@gmail.com"> amula42@gmail.com</a> </p>
                             </div>
                             <div className="form-wrapper">
 

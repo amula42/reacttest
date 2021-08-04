@@ -8,7 +8,7 @@ import './index.scss';
 import PageScrollTop from './component/PageScrollTop';
 
 // Home layout
-import Demo from './page-demo/Demo';
+import Demo from './home/PortfolioLanding';
 import MainDemo from './home/MainDemo';
 import Startup from './home/Startup';
 import Paralax from './home/Paralax';

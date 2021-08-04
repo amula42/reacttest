@@ -14,7 +14,7 @@ const SlideList = [
     {
         textPosition: 'text-left',
         category: 'Freelance digital designer',
-        title: 'Hello, I’m <span>Nancy</span> Welcome to my World.',
+        title: 'Hello, I’m <span>Akash</span> Welcome to my World.',
         description: '',
         buttonText: '',
         buttonLink: ''
@@ -22,7 +22,7 @@ const SlideList = [
 ]
 const PortfolioLanding = () => {
     let title = 'About Me',
-        description = 'There are many variations of passages of Lorem Ipsum available, but the majority have suffered <a href="#">alteration</a> in some form, by injected humour, or randomised words which dont look even slightly believable. If you are going to use a passage of Lorem Ipsum,';
+        description = 'Junior Web Developer specializing in Front End Development. Proficient in HTML, CSS, JavaScript, WordPress; plus modern libraries and frameworks. Passionate about usability and possess working knowledge of Adobe Photoshop.';
     const PostList = BlogContent.slice(0 , 3);
     return (
         <div>
