@@ -20,7 +20,7 @@ const ContactOne = () => {
         const { name, email, phone, message } = user;
         if (( name && email && phone && message )) {
             const res = await fetch(
-                "https://reacttest-9c36f-default-rtdb.firebaseio.com/myportfolio.json",
+                `${process.env.REACT_APP_API_URL}`,
                 {
                     method: "POST",
                     headers: {
